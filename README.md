@@ -52,3 +52,11 @@ To execute the script, run the following command:
 
 ```bash
 python3 TestBackups.py
+```
+
+## To-Do
+
+- Implement dynamic time conversion(time to restore)
+- Allow for list of attatched storages
+- Account for long running restores(Not just having a long timeout)
+
