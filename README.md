@@ -15,6 +15,19 @@ This script is used to test backups in a Proxmox environment. It performs severa
 - email
 - urllib3
 
+## Environment Variables
+
+The script requires the following environment variables to be set:
+
+- `SMTP_SERVER`: The SMTP server to use for sending emails.
+- `SENDER`: The email address to send the report from.
+- `DESTINATION`: The email address to send the report to.
+- `REALM`: The realm for the Proxmox environment.
+- `PROXMOX_USERNAME`: The username for the Proxmox environment.
+- `PROXMOX_PASSWORD`: The password for the Proxmox environment.
+- `RECOVERY_NODE_FQDN`: The fully qualified domain name of the recovery node in the Proxmox environment.
+- `STORAGE_NAME`: The name of the storage in the Proxmox environment.
+
 ## Functions
 
 1. `send_report(attachment_path)`: This function sends an email report with the results of the backup testing script.
@@ -38,4 +51,4 @@ This script is used to test backups in a Proxmox environment. It performs severa
 To execute the script, run the following command:
 
 ```bash
-python3 TestBackups.py
+python TestBackups.py
