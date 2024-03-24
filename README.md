@@ -51,4 +51,4 @@ The script requires the following environment variables to be set:
 To execute the script, run the following command:
 
 ```bash
-python TestBackups.py
+python3 TestBackups.py
