@@ -59,4 +59,5 @@ python3 TestBackups.py
 - Implement dynamic time conversion(time to restore)
 - Allow for list of attatched storages
 - Account for long running restores(Not just having a long timeout)
+- Error checking for env variables
 
